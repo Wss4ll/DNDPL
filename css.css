@@ -80,7 +80,7 @@ h2 {
     background: rgba(3, 3, 3, 0.3);
     font-size: 20px;
     letter-spacing: 10px;
-    color: maroon;
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 3px #FF0000, 0 0 5px #fff;
     border-bottom: 2px solid rgb(0, 0, 0);
     
