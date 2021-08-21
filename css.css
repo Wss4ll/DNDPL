@@ -87,6 +87,10 @@ h2 {
     color: #fff;
     text-shadow: 0 0 4px #FF0000, 0 0 3px #fff;
     text-align: center;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: -8px;
+
     
     
     
@@ -101,13 +105,13 @@ h2 {
     color: maroon;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #fff;
     border-bottom: 2px solid rgb(0, 0, 0);
-     
+    
     
     
     }
 
     #head h1 {
-
+        
         line-height: 1em;
         margin-left: 170px;
     
