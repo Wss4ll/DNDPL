@@ -5,7 +5,7 @@ function changePic1()
 
 function changePic2()
 {
-  document.getElementById("ll1").src="pics/logo.png";
+  document.getElementById("ll1").src="pics/logo2.png";
 }
 
 function changePic3()
@@ -26,7 +26,7 @@ function changePic5()
 
 function changePic6()
 {
-  document.getElementById("ll2").src="pics/logo.png";
+  document.getElementById("ll2").src="pics/logo3.png";
 }
 
 function changePic7()
@@ -36,7 +36,7 @@ function changePic7()
 
 function changePic8()
 {
-  document.getElementById("ll3").src="pics/logo.png";
+  document.getElementById("ll3").src="pics/logo4.png";
 }
 
 

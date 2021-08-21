@@ -89,11 +89,12 @@ h2 {
 
 #head {
     background: rgba(3, 3, 3, 0.3);
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 10px;
     color: maroon;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #fff;
     border-bottom: 2px solid rgb(0, 0, 0);
+    
     
     
     
@@ -136,7 +137,7 @@ h2 {
 #head h1 {
 
     line-height: 1em;
-    margin-left: 230px;
+    margin-left: 190px;
 
 }
 
