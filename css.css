@@ -3,7 +3,7 @@ body {
 background-size: cover;
 background-image: url(pics/d1.jpg), url(pics/t2.png);
 background-repeat: no-repeat;
-background-color: #000000;
+background-color: #f4f4f4;
 color: #555;
 font-size: 16px;
 line-height: 1.6em;
@@ -21,9 +21,15 @@ backdrop-filter: blur(2px) brightness(60%);
 
 }
 
+#vid1 {
+    margin-top: 10px;
+    margin-left: 110px;
+    border: 5px solid maroon;
+    box-shadow: 0 0 2px #FF0000, 0 0 5px #fff; 
+}
 
 .container {
-width: 80%;
+width: 800px;
 margin: 0;
 overflow: hidden;
 padding: 5px;
@@ -48,8 +54,14 @@ padding: 5px;
     
 #cut2 {
     border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
 
 }   
+
+#cut3 {
+    border-top: 2px solid rgb(0, 0, 0);
+
+}
     
 
 #crop {
@@ -65,12 +77,18 @@ padding: 5px;
 
 }
 
+#crop3 {
+    margin-bottom: -8px;
+
+}
+
 h2 {
     font-size: 20px;
     color: #fff;
     text-shadow: 0 0 4px #FF0000, 0 0 3px #fff;
-     text-align: center;
-    margin-left: 180px;
+    text-align: center;
+    margin-top: -5px;
+    
     
 
 }
@@ -78,20 +96,23 @@ h2 {
 
 #head {
     background: rgba(3, 3, 3, 0.3);
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 10px;
     color: maroon;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #fff;
     border-bottom: 2px solid rgb(0, 0, 0);
+     
     
     
-    
-    
-    
-    
-    
+    }
 
-}
+    #head h1 {
+
+        line-height: 1em;
+        margin-left: 170px;
+    
+    }
+   
 
 #ll1 {
     border: 5px solid maroon;
@@ -122,12 +143,7 @@ h2 {
 
 }
 
-#head h1 {
 
-    line-height: 1em;
-    margin-left: 230px;
-
-}
 
 #navbar {
 
@@ -232,3 +248,10 @@ button {
 }
 
 
+
+#vid1 {
+    margin-top: 10px;
+    margin-left: 113px;
+    border: 5px solid maroon;
+    box-shadow: 0 0 2px #FF0000, 0 0 5px #fff; 
+}
