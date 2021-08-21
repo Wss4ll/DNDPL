@@ -48,8 +48,14 @@ padding: 5px;
     
 #cut2 {
     border-top: 2px solid rgb(0, 0, 0);
-
+    border-bottom: 2px solid rgb(0, 0, 0);
 }   
+
+#cut3 {
+    border-top: 2px solid rgb(0, 0, 0);
+
+}
+
     
 
 #crop {
@@ -61,6 +67,11 @@ padding: 5px;
 }
 
 #crop2 {
+    margin-bottom: -8px;
+
+}
+
+#crop3 {
     margin-bottom: -8px;
 
 }
@@ -231,4 +242,15 @@ button {
 
 }
 
+#vid {
 
+    width: 800px;
+}
+
+#vid1 {
+    margin-top: 10px;
+    margin-left: 115px;
+    border: 5px solid maroon;
+    box-shadow: 0 0 2px #FF0000, 0 0 5px #fff;
+
+}
