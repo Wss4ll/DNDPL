@@ -37,21 +37,27 @@ function roll(){
     document.querySelector("#die-1").setAttribute
     ("src", images[dieOneValue]);
     
-    
-  let result
-  if (dieOneValue > 18) {
-    result = document.querySelector("#total").innerHTML =
-    "AMAZING!!!";
-  } 
-  
-  else if (dieOneValue < 1) {
-    result = document.querySelector("#total").innerHTML =
-    "NOOOOOOOOOOOOOOOOOOOO!!!";}
-  
-  else {result = document.querySelector("#total").innerHTML =
-    "You have rolled " + (dieOneValue +1);
+   setTimeout(() => {
 
-    }
+
+    let result
+    if (dieOneValue > 18) {
+      result = document.querySelector("#total").innerHTML =
+      "AMAZING!!!";
+    } 
+    
+    else if (dieOneValue < 1) {
+      result = document.querySelector("#total").innerHTML =
+      "NOOOOOOOOOOOOOOOOOOOO!!!";}
+    
+    else {result = document.querySelector("#total").innerHTML =
+      "You have rolled " + (dieOneValue +1); }
+
+
+
+     
+   }, 300);        
+  
 
 
 
