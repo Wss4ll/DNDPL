@@ -1,0 +1,163 @@
+body {
+    background-size: cover;
+    background-image: url(pics/d1.jpg), url(pics/t2.png);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: rgba(3, 3, 3, 0.3);
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 5px maroon, 0 0 5px #fff; 
+    backdrop-filter: blur(2px) brightness(60%) ;
+    
+        
+        }
+
+        #backC { 
+            background: rgba(3, 3, 3, 0.3);
+
+        }
+
+    #cut {
+        border-bottom: 2px solid rgb(0, 0, 0);
+      
+        
+    
+    }  
+
+    #cut2 {
+        border-top: 2px solid rgb(0, 0, 0);
+        border-bottom: 2px solid rgb(0, 0, 0);
+    }   
+
+    #cut3 {
+        border-top: 2px solid rgb(0, 0, 0);
+    
+    }
+
+    #crop3 {
+        margin-bottom: -8px;
+    
+    }
+    
+
+    #head {
+        
+        font-size: 25px;
+        letter-spacing: 10px;
+        color: maroon;
+        text-shadow: 0 0 3px #FF0000, 0 0 5px #fff;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        text-align: center;
+        
+       
+        
+    }
+
+    #navbar ul
+    {
+       padding: 0;
+       list-style: none;
+       display: inline-flex;
+       
+       
+        
+
+    }
+
+    #navbar ul img {
+        border: 5px solid maroon;
+        border-radius: 50%;
+        box-shadow: 0 0 2px #FF0000, 0 0 5px #fff; 
+        margin: 10px;
+        
+        
+        
+        
+    }
+
+    #navbar {
+       align-items: center;
+       justify-content: center;
+       display: flex;
+    }
+
+    #dice {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+
+ 
+    
+
+    h2 {
+
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 4px #FF0000, 0 0 3px #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    
+    
+    }
+
+    #but {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+
+    }
+
+    button {
+
+        padding: 15px 50px;
+        outline: none;
+        border: 4px solid maroon;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bolder;
+        cursor: pointer;
+        background: transparent;
+        border-radius: 50px;
+        text-shadow: 0 0 3px #FF0000, 0 0 3px #fff;
+        box-shadow: 0 0 2px #FF0000, 0 0 5px #fff; 
+        margin-bottom: 20px;
+    }
+
+    #b1:hover
+
+{ backdrop-filter:brightness(60%);
+  background-color: rgba(3, 3, 3, 0.3);
+
+}
+
+.shake {
+animation: shake 0.5s infinite;
+
+}
+
+@keyframes shake {
+0%{
+transform: rotate(200deg);
+
+}
+
+50%{
+    transform: rotate(-150deg);
+
+}
+
+100%{
+    transform: rotate(100deg);
+    
+    }
+
+}
