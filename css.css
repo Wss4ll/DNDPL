@@ -105,6 +105,13 @@ h2 {
 
 }
 
+#head h1 {
+
+    line-height: 1em;
+    margin-left: 190px;
+
+}
+
 #ll1 {
     border: 5px solid maroon;
     border-radius: 50%;
@@ -134,12 +141,7 @@ h2 {
 
 }
 
-#head h1 {
 
-    line-height: 1em;
-    margin-left: 190px;
-
-}
 
 #navbar {
 
@@ -187,7 +189,7 @@ button {
         cursor: pointer;
         background: transparent;
         border-radius: 50px;
-        margin-left: 280px;
+        margin-left: 290px;
         text-shadow: 0 0 3px #FF0000, 0 0 3px #fff;
         box-shadow: 0 0 2px #FF0000, 0 0 5px #fff; 
 
