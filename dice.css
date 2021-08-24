@@ -16,8 +16,28 @@ body {
         
         }
 
-        #backC { 
+        .box {
+            margin: 0 auto;
+            border: 5px solid maroon;
+            box-shadow: 0 0 2px #FF0000, 0 0 8px #fff; 
+            width: 400px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(2px) brightness(60%) ;
+            
+            
+            
+        
+        }
+
+        #backC  {
             background: rgba(3, 3, 3, 0.3);
+            padding-bottom: 5px;
+            
+            
+            
+            
 
         }
 
@@ -39,7 +59,7 @@ body {
     }
 
     #crop3 {
-        margin-bottom: -8px;
+        margin-bottom: -13px;
     
     }
     

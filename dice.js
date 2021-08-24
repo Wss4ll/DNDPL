@@ -48,7 +48,7 @@ function roll(){
     
     else if (dieOneValue < 1) {
       result = document.querySelector("#total").innerHTML =
-      "NOOOOOOOOOOOOOOOOOOOO!!!";}
+      "NOOOOOOOOOO!!!";}
     
     else {result = document.querySelector("#total").innerHTML =
       "You have rolled " + (dieOneValue +1); }
@@ -56,7 +56,7 @@ function roll(){
 
 
      
-   }, 500);        
+   }, 300);        
   
 
 
