@@ -120,14 +120,18 @@ display: flex;
 
 
 
-#slay2 {
-    
+
+
+.container {
+    width: 80%;
+    margin: 0;
+    overflow: hidden;
+    padding: 5px;
+    margin: 0 auto;
     text-align: center;
-    margin-left: 80px;
-    margin-right:80px;
-
+    justify-content: center;
+    
 }
-
 
 
 #slay2 h1
@@ -144,7 +148,7 @@ display: flex;
 }
 
 #slay2  h2 {
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     text-shadow: 0 0 4px #FF0000, 0 0 3px #fff;}
     
