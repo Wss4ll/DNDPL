@@ -211,3 +211,9 @@ button {
     box-shadow: 0 0 2px #FF0000, 0 0 5px #fff;
 
 }
+
+@media only screen and (max-width: 600px) {
+    #slay2  h2 {
+      font-size: 10px;
+    }
+  }
