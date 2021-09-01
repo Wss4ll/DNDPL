@@ -51,11 +51,23 @@ border-bottom: 2px solid rgb(0, 0, 0);
 align-items: center;
 justify-content: center;
 display: flex;
-padding-left: 600px;
+padding-left: 580px;
 
+}
 
-
-
+#crop a button {
+margin: 5px;
+padding: 10px 15px;
+outline: none;
+border: 4px solid maroon;
+border-radius: 20px;
+color: #fff;
+font-size: 15px;
+font-weight: bolder;
+cursor: pointer;
+background: transparent;
+text-shadow: 0 0 3px #FF0000, 0 0 3px #fff;
+box-shadow: 0 0 2px #FF0000, 0 0 5px #fff; 
 
 }
 
@@ -138,7 +150,7 @@ display: flex;
 
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: 0;
     overflow: hidden;
     padding: 5px;
@@ -199,23 +211,7 @@ display: flex;
 
 }
 
-#b2 {
-    
-    padding: 10px 30px;
-    outline: none;
-    border: 4px solid maroon;
-    border-radius: 20px;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bolder;
-    cursor: pointer;
-    background: transparent;
-    text-shadow: 0 0 3px #FF0000, 0 0 3px #fff;
-    box-shadow: 0 0 2px #FF0000, 0 0 5px #fff; 
-    
-    
 
-}
 
 
 
